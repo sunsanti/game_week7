@@ -1,0 +1,62 @@
+# Unity .gitignore
+# This .gitignore file should be placed at the root of your Unity project directory.
+
+# Visual Studio / Rider / VSCode generated files
+/[Aa]ssembly-CSharp*.csproj
+/[Aa]ssembly-CSharp*.unityproj
+/[Aa]ssembly-CSharp*.sln
+/[Aa]ssembly-CSharp*.vcxproj
+/[Aa]ssembly-CSharp*.slnx
+*.sln
+*.slnx
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset server cache
+[Aa]sset_Server_Cache/
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary cache files
+*~
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE files
+.vscode/
+.idea/
+.vs/
